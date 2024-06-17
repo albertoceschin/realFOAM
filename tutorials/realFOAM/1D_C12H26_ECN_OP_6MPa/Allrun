@@ -12,7 +12,7 @@ runApplication blockMesh
 
 # Run solver
 runApplication rhoPimpleFoam
-
+#
 # Extract data
 runApplication postProcess -func sampleDict -latestTime
 

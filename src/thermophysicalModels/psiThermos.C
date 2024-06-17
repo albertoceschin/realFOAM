@@ -57,42 +57,6 @@ namespace Foam
 {
 
 /* * * * * * * * * * * * * * * * * Enthalpy-based * * * * * * * * * * * * * */
-
-makeThermos
-(
-    psiThermo,
-    hePsiThermo,
-    pureMixture,
-    constTransport,
-    sensibleEnthalpy,
-    hConstThermo,
-    perfectGas,
-    specie
-);
-
-makeThermos
-(
-    psiThermo,
-    hePsiThermo,
-    pureMixture,
-    sutherlandTransport,
-    sensibleEnthalpy,
-    hConstThermo,
-    perfectGas,
-    specie
-);
-
-makeThermos
-(
-    psiThermo,
-    hePsiThermo,
-    pureMixture,
-    sutherlandTransport,
-    sensibleEnthalpy,
-    janafThermo,
-    perfectGas,
-    specie
-);
 // PR
 makeThermos
 (
@@ -241,66 +205,6 @@ makeThermos
     specie
 );
 /* * * * * * * * * * * * * * Internal-energy-based * * * * * * * * * * * * * */
-
-makeThermos
-(
-    psiThermo,
-    hePsiThermo,
-    pureMixture,
-    constTransport,
-    sensibleInternalEnergy,
-    eConstThermo,
-    perfectGas,
-    specie
-);
-
-makeThermos
-(
-    psiThermo,
-    hePsiThermo,
-    pureMixture,
-    sutherlandTransport,
-    sensibleInternalEnergy,
-    eConstThermo,
-    perfectGas,
-    specie
-);
-
-makeThermos
-(
-    psiThermo,
-    hePsiThermo,
-    pureMixture,
-    constTransport,
-    sensibleInternalEnergy,
-    hConstThermo,
-    perfectGas,
-    specie
-);
-
-makeThermos
-(
-    psiThermo,
-    hePsiThermo,
-    pureMixture,
-    sutherlandTransport,
-    sensibleInternalEnergy,
-    hConstThermo,
-    perfectGas,
-    specie
-);
-
-makeThermos
-(
-    psiThermo,
-    hePsiThermo,
-    pureMixture,
-    sutherlandTransport,
-    sensibleInternalEnergy,
-    janafThermo,
-    perfectGas,
-    specie
-);
 
 // PR
 makeThermos

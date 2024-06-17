@@ -50,4 +50,9 @@ timePrecision       6;
 
 adjustTimeStep      no;
 
+libs
+(
+  "libfuidThermophysicalModels.so"  
+);
+
 // ************************************************************************* //
